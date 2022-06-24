@@ -1,7 +1,7 @@
 {
-  "name": "nextapp",
+  "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "next": "12.1.6",
+    "next-transpile-modules": "^9.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "xterm": "^4.18.0",
+    "xterm-addon-fit": "^0.5.0",
+    "xterm-addon-web-links": "^0.5.1"
   },
   "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
     "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "typescript": "^4.7.4"
   }
 }
